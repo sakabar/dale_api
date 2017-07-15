@@ -11,7 +11,7 @@ import javax.persistence.Table;
  * Created by sak on 2017/07/12.
  */
 @Entity
-@Table(name = "bad_move")
+@Table(name = "badMove")
 public class BadMove {
 
   @Column(name = "kif_id")

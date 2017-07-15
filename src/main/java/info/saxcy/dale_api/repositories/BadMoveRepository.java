@@ -12,5 +12,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface BadMoveRepository extends JpaRepository<BadMove, Long> {
 
+  BadMove findById(long id);
+
   List<BadMove> findByKifId(String kif_id);
 }
